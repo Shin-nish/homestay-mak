@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Homestay Zaidah</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f2f2f2; }
+    header { background: #4CAF50; color: white; padding: 20px; text-align: center; }
+    nav { background: #333; padding: 10px; text-align: center; }
+    nav a { color: white; margin: 0 15px; text-decoration: none; }
+    section { padding: 20px; }
+    footer { background: #4CAF50; color: white; text-align: center; padding: 10px; }
+    .gallery img { width: 100%; max-width: 300px; margin: 10px; border-radius: 8px; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Homestay Zaidah</h1>
+  <p>Tenang, Selesa, Mesra – Penginapan untuk seisi keluarga</p>
+</header>
+
+<nav>
+  <a href="#about">Tentang Kami</a>
+  <a href="#facilities">Kemudahan</a>
+  <a href="#gallery">Galeri</a>
+  <a href="#booking">Tempahan</a>
+  <a href="#contact">Hubungi Kami</a>
+</nav>
+
+<section id="about">
+  <h2>Tentang Kami</h2>
+  <p>Homestay Damai terletak di Terengganu, Kuala Terengganu. Sesuai untuk keluarga yang ingin bercuti dengan suasana yang tenang dan selesa.</p>
+</section>
+
+<section id="facilities">
+  <h2>Kemudahan</h2>
+  <ul>
+    <li>3 bilik tidur berhawa dingin</li>
+    <li>WiFi percuma</li>
+    <li>Dapur lengkap</li>
+    <li>Parking percuma</li>
+    <li>Mesin basuh & TV</li>
+  </ul>
+</section>
+
+<section id="gallery">
+  <h2>Galeri</h2>
+  <div class="gallery">
+    <img src="gambar1.jpg" alt="Ruang tamu">
+    <img src="gambar2.jpg" alt="Bilik tidur">
+    <img src="gambar3.jpg" alt="Halaman homestay">
+  </div>
+</section>
+
+<section id="booking">
+ <section id="booking">
+  <h2>Tempahan</h2>
+  <form action="https://formspree.io/f/yourformid" method="POST">
+    <label for="name">Nama:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="date">Tarikh Masuk:</label>
+    <input type="date" id="date" name="date" required>
+
+    <label for="guests">Bilangan Tetamu:</label>
+    <input type="number" id="guests" name="guests" min="1" required>
+
+    <button type="submit" class="btn">Hantar Tempahan</button>
+  </form>
+</section>
+
+<section id="contact">
+  <h2>Hubungi Kami</h2>
+  <p>📞 Telefon: 012-3456789</p>
+  <p>📧 Email: homestaydamai@gmail.com</p>
+  <p>📍 Lokasi: Kuantan, Pahang</p>
+</section>
+
+<footer>
+  <p>&copy; 2025 Homestay Damai Kuantan</p>
+</footer>
+
+</body>
+</html>
